@@ -19,11 +19,17 @@ An end-to-end cloud-based attendance system that uses AI face recognition to aut
 ## 🏗️ Architecture
 
 React (Netlify HTTPS)
+
 ↓
+
 Netlify Proxy
+
 ↓
+
 FastAPI (Docker on EC2)
+
 ↓
+
 AWS Rekognition + S3 + DynamoDB
 
 
