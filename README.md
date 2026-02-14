@@ -1,83 +1,77 @@
-🚀 AI Face Recognition Attendance System
+# 🚀 AI Face Recognition Attendance System
 
 An end-to-end cloud-based attendance system that uses AI face recognition to automatically mark student attendance in real time.
 
-🧠 Features
+---
 
-Face registration using AWS Rekognition
+## 🧠 Features
 
-Real-time attendance marking
+- Face registration using AWS Rekognition  
+- Real-time attendance marking  
+- Unknown face rejection  
+- Webcam-based capture  
+- Cloud-native architecture  
+- Dockerized backend  
+- Live deployed frontend  
 
-Unknown face rejection
+---
 
-Webcam-based capture
-
-Cloud-native architecture
-
-Dockerized backend
-
-Live deployed frontend
-
-
-
-🏗️ Architecture
+## 🏗️ Architecture
 
 React (Netlify HTTPS)
-        ↓
+↓
 Netlify Proxy
-        ↓
+↓
 FastAPI (Docker on EC2)
-        ↓
+↓
 AWS Rekognition + S3 + DynamoDB
 
 
+---
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 
-Frontend
+### Frontend
+- React  
+- JavaScript  
+- Netlify  
 
-React
+### Backend
+- FastAPI  
+- Python  
+- Docker  
+- AWS EC2  
 
-JavaScript
+### Cloud & AI
+- AWS Rekognition  
+- Amazon S3  
+- DynamoDB  
 
-Netlify
+---
 
-Backend
+## 🌐 Live Demo
 
-FastAPI
+**Frontend:**  
+👉 https://sunny-conkies-5e421b.netlify.app  
 
-Python
+**Backend API:**  
+👉 http://44.223.53.242:8000/docs  
 
-Docker
+---
 
-AWS EC2
+## 📸 Future Improvements
 
-Cloud & AI
+- Duplicate attendance prevention  
+- Multi-face detection  
+- Admin dashboard  
+- HTTPS backend with custom domain  
 
-AWS Rekognition
+---
 
-Amazon S3
+## 👩‍💻 Author
 
-DynamoDB
+**Harshini Tummepalli**
 
+---
 
-
-🌐 Live Demo
-
-Frontend:
-👉 https://sunny-conkies-5e421b.netlify.app
-
-Backend API:
-👉 http://44.223.53.242:8000/docs
-
-
-
-📸 Future Improvements
-
-Duplicate attendance prevention
-
-Multi-face detection
-
-Admin dashboard
-
-HTTPS backend with custom domain
+⭐ If you found this project helpful, please give it a star!
