@@ -76,7 +76,7 @@ AWS Rekognition + S3 + DynamoDB
 
 ## 👩‍💻 Author
 
-**Harshini Tummepalli**
+**Tummepalli Reshini Ahla**
 
 ---
 
